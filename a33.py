@@ -8,5 +8,5 @@ for ic in range(t1):
     a,b = map(int,input().split())
     res = 0
     for ic in range(a-1,b):
-        res += l11[i]
+        res += l11[ic]
     print(res)
