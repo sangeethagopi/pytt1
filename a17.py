@@ -1,6 +1,10 @@
-n1 = raw_input().split()
-ans = []
-for i in range(len(n1)):
-    ans.append(n1[i][::-1])
-ansstr = ' '.join(map(str,ans))
-print ansstr
+def WordSentence(Sentence1):  
+    words1 = Sentence1.split(" ") 
+    newWords = [word[::-1] for word in words1] 
+    newSentence = " ".join(newWords)   
+    return newSentence 
+Sentence1 = input()
+
+
+
+print(WordSentence(Sentence1)) 
