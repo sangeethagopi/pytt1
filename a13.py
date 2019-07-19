@@ -1,13 +1,7 @@
-s1=input()
-a1=list(map(int,input().split()))
-t=[]
-for i in range(len(a1)):
-  if i % 2 == 0:
-    if a[i] % 2 != 0:
-      t.append(a1[i])
-  else:
-    if a1[i] % 2 == 0:
-      t.append(a1[i])
-for i in t:
-  print(i,end=" ")
-      
+Nc=int(input())
+li=list(map(int,input().split()[:Nc]))
+for i in range(0,Nc):
+    if i%2==0 and li[i]%2!=0:
+        print(li[i],end=" ")
+    elif i%2!=0 and li[i]%2==0:
+        print(li[i],end=" ")
