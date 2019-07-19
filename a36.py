@@ -3,7 +3,7 @@ def countt_1(no) :
     ktc = stc1.count('1')
     return ktc
 no1 = int(input())
-Lo1 = [ int(x) for xc in input().split()]
+Lo1 = [ int(xc) for xc in input().split()]
 Los2 = []
 for ic in range(0,no1) :
     Los2.append((countt_1(Lo1[ic]),Lo1[ic]))
