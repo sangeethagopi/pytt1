@@ -1,8 +1,8 @@
-stc,st2=input().split()
-cost_diff=abs(len(stc)-len(st2))
-for i in range(len(sct)):
-    if len(st2)==1 and st2[i] in stc:
+strg1,strg2=input().split()
+cost_diffc=abs(len(strg1)-len(strg2))
+for i in range(len(strg1)):
+    if len(strg2)==1 and strg2[i] in strg1:
         break
-    if stc[i] != st2[i]:
-        cost_diff+=1 
-print(cost_diff)
+    if strg1[i] != strg2[i]:
+        cost_diffc+=1 
+print(cost_diffc)
